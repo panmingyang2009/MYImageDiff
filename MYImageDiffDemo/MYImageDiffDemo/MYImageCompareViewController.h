@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MYImageCompareViewController.h
 //  MYImageDiffDemo
 //
 //  Created by 潘名扬 on 2020/9/6.
@@ -20,8 +20,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface MYImageCompareViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

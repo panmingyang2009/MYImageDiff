@@ -15,6 +15,7 @@
 		EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */; };
 		EE5995E12504D47B0047CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995E02504D47B0047CC16 /* main.m */; };
 		EE5995E82504DBB00047CC16 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = EE5995E72504DBAF0047CC16 /* Resources */; };
+		EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		EE5995DF2504D47B0047CC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5995E02504D47B0047CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE5995E72504DBAF0047CC16 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageCompareViewController.h; sourceTree = "<group>"; };
+		EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageCompareViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				EE5995CF2504D4790047CC16 /* AppDelegate.m */,
 				EE5995D42504D4790047CC16 /* ViewController.h */,
 				EE5995D52504D4790047CC16 /* ViewController.m */,
+				EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */,
+				EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */,
 				EE5995D72504D4790047CC16 /* Main.storyboard */,
 				EE5995DA2504D47B0047CC16 /* Assets.xcassets */,
 				EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */,
@@ -125,8 +130,9 @@
 		EE5995C32504D4790047CC16 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MY;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = Punmy;
+				ORGANIZATIONNAME = "MINGYANG PAN";
 				TargetAttributes = {
 					EE5995CA2504D4790047CC16 = {
 						CreatedOnToolsVersion = 11.5;
@@ -195,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */,
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
