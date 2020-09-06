@@ -19,6 +19,7 @@
 //
 
 #import "ViewController.h"
+#import "MYImageCompareViewController.h"
 
 @interface ViewController ()
 
@@ -28,7 +29,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    MYImageCompareViewController *imageCompareVC = [[MYImageCompareViewController alloc] initWithNibName:nil bundle:nil];
+    [self.navigationController pushViewController:imageCompareVC animated:YES];
 }
 
 

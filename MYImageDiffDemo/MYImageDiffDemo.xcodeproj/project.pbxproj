@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,10 @@
 		EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5995DA2504D47B0047CC16 /* Assets.xcassets */; };
 		EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */; };
 		EE5995E12504D47B0047CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995E02504D47B0047CC16 /* main.m */; };
-		EE5995E82504DBB00047CC16 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = EE5995E72504DBAF0047CC16 /* Resources */; };
 		EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */; };
+		EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995ED2504EA040047CC16 /* github-octocat.png */; };
+		EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995EE2504EA040047CC16 /* github-octocat-edit.png */; };
+		EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995F72504F5150047CC16 /* MYImageComparator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,9 +34,12 @@
 		EE5995DD2504D47B0047CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5995DF2504D47B0047CC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5995E02504D47B0047CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EE5995E72504DBAF0047CC16 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageCompareViewController.h; sourceTree = "<group>"; };
 		EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageCompareViewController.m; sourceTree = "<group>"; };
+		EE5995ED2504EA040047CC16 /* github-octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat.png"; sourceTree = "<group>"; };
+		EE5995EE2504EA040047CC16 /* github-octocat-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit.png"; sourceTree = "<group>"; };
+		EE5995F62504F5150047CC16 /* MYImageComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageComparator.h; sourceTree = "<group>"; };
+		EE5995F72504F5150047CC16 /* MYImageComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageComparator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,14 +89,25 @@
 				EE5995D52504D4790047CC16 /* ViewController.m */,
 				EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */,
 				EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */,
+				EE5995F62504F5150047CC16 /* MYImageComparator.h */,
+				EE5995F72504F5150047CC16 /* MYImageComparator.m */,
 				EE5995D72504D4790047CC16 /* Main.storyboard */,
 				EE5995DA2504D47B0047CC16 /* Assets.xcassets */,
+				EE5995EC2504E9D80047CC16 /* Resources */,
 				EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */,
 				EE5995DF2504D47B0047CC16 /* Info.plist */,
 				EE5995E02504D47B0047CC16 /* main.m */,
-				EE5995E72504DBAF0047CC16 /* Resources */,
 			);
 			path = MYImageDiffDemo;
+			sourceTree = "<group>";
+		};
+		EE5995EC2504E9D80047CC16 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE5995EE2504EA040047CC16 /* github-octocat-edit.png */,
+				EE5995ED2504EA040047CC16 /* github-octocat.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		F01841AAE0760FF4BBA99D7F /* Pods */ = {
@@ -114,6 +130,7 @@
 				EE5995C72504D4790047CC16 /* Sources */,
 				EE5995C82504D4790047CC16 /* Frameworks */,
 				EE5995C92504D4790047CC16 /* Resources */,
+				BE8AAA2EA780699B207AA71C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,9 +179,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE5995E82504DBB00047CC16 /* Resources in Resources */,
+				EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */,
 				EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */,
 				EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */,
+				EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */,
 				EE5995D92504D4790047CC16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +212,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BE8AAA2EA780699B207AA71C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -203,6 +238,7 @@
 			files = (
 				EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */,
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
+				EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */,
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
 			);
@@ -346,13 +382,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T6Z74EV946;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MYImageDiffDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.punmy.image-diff.MYImageDiffDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.punmy.MYImageDiffDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,7 +406,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "cn.punmy.image-diff.MYImageDiffDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.punmy.MYImageDiffDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

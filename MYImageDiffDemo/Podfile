@@ -7,5 +7,7 @@ target 'MYImageDiffDemo' do
 
   # Pods for MYImageDiffDemo
   pod 'MYImageDiff', :path => '../'
+  
+  pod 'Masonry'
 
 end
