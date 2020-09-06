@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26AD1AA5B62463603C3FB95E /* Pods_MYImageDiffDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4B484C92235182AB48D2AB /* Pods_MYImageDiffDemo.framework */; };
 		EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995CF2504D4790047CC16 /* AppDelegate.m */; };
-		EE5995D32504D4790047CC16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995D22504D4790047CC16 /* SceneDelegate.m */; };
 		EE5995D62504D4790047CC16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995D52504D4790047CC16 /* ViewController.m */; };
 		EE5995D92504D4790047CC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5995D72504D4790047CC16 /* Main.storyboard */; };
 		EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE5995DA2504D47B0047CC16 /* Assets.xcassets */; };
 		EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */; };
 		EE5995E12504D47B0047CC16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995E02504D47B0047CC16 /* main.m */; };
+		EE5995E82504DBB00047CC16 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = EE5995E72504DBAF0047CC16 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C4B484C92235182AB48D2AB /* Pods_MYImageDiffDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYImageDiffDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6142F642C3B7AA7C9A767AE /* Pods-MYImageDiffDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYImageDiffDemo.release.xcconfig"; path = "Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DAA916C40F3AF66970078FBF /* Pods-MYImageDiffDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYImageDiffDemo.debug.xcconfig"; path = "Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EE5995CB2504D4790047CC16 /* MYImageDiffDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYImageDiffDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5995CE2504D4790047CC16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE5995CF2504D4790047CC16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE5995D12504D4790047CC16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		EE5995D22504D4790047CC16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EE5995D42504D4790047CC16 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EE5995D52504D4790047CC16 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE5995D82504D4790047CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +31,7 @@
 		EE5995DD2504D47B0047CC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5995DF2504D47B0047CC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5995E02504D47B0047CC16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE5995E72504DBAF0047CC16 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26AD1AA5B62463603C3FB95E /* Pods_MYImageDiffDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CD01339ED3888CBF633A1B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C4B484C92235182AB48D2AB /* Pods_MYImageDiffDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE5995C22504D4790047CC16 = {
 			isa = PBXGroup;
 			children = (
 				EE5995CD2504D4790047CC16 /* MYImageDiffDemo */,
 				EE5995CC2504D4790047CC16 /* Products */,
+				F01841AAE0760FF4BBA99D7F /* Pods */,
+				3CD01339ED3888CBF633A1B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +77,6 @@
 			children = (
 				EE5995CE2504D4790047CC16 /* AppDelegate.h */,
 				EE5995CF2504D4790047CC16 /* AppDelegate.m */,
-				EE5995D12504D4790047CC16 /* SceneDelegate.h */,
-				EE5995D22504D4790047CC16 /* SceneDelegate.m */,
 				EE5995D42504D4790047CC16 /* ViewController.h */,
 				EE5995D52504D4790047CC16 /* ViewController.m */,
 				EE5995D72504D4790047CC16 /* Main.storyboard */,
@@ -72,8 +84,18 @@
 				EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */,
 				EE5995DF2504D47B0047CC16 /* Info.plist */,
 				EE5995E02504D47B0047CC16 /* main.m */,
+				EE5995E72504DBAF0047CC16 /* Resources */,
 			);
 			path = MYImageDiffDemo;
+			sourceTree = "<group>";
+		};
+		F01841AAE0760FF4BBA99D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAA916C40F3AF66970078FBF /* Pods-MYImageDiffDemo.debug.xcconfig */,
+				D6142F642C3B7AA7C9A767AE /* Pods-MYImageDiffDemo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE5995E42504D47B0047CC16 /* Build configuration list for PBXNativeTarget "MYImageDiffDemo" */;
 			buildPhases = (
+				A1C9A37CF175BAD70782AF77 /* [CP] Check Pods Manifest.lock */,
 				EE5995C72504D4790047CC16 /* Sources */,
 				EE5995C82504D4790047CC16 /* Frameworks */,
 				EE5995C92504D4790047CC16 /* Resources */,
@@ -133,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE5995E82504DBB00047CC16 /* Resources in Resources */,
 				EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */,
 				EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */,
 				EE5995D92504D4790047CC16 /* Main.storyboard in Resources */,
@@ -140,6 +164,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1C9A37CF175BAD70782AF77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MYImageDiffDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EE5995C72504D4790047CC16 /* Sources */ = {
@@ -149,7 +198,6 @@
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
-				EE5995D32504D4790047CC16 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +335,7 @@
 		};
 		EE5995E52504D47B0047CC16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA916C40F3AF66970078FBF /* Pods-MYImageDiffDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +353,7 @@
 		};
 		EE5995E62504D47B0047CC16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6142F642C3B7AA7C9A767AE /* Pods-MYImageDiffDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
