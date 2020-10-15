@@ -21,6 +21,9 @@
 #import "MYImageCompareViewController.h"
 #import <Masonry/Masonry.h>
 
+#import "MYImageComparator.h"
+
+
 @interface MYImageCompareViewController ()
 
 @property (nonatomic, strong) UIImageView *originalImageView;
@@ -119,7 +122,17 @@
     self.originalImageView.image = originalImage;
     self.anotherImageView.image = anotherImage;
     
-    NSLog(@">>>>> drawing begin");
+    MYImageComparator *comparator = [MYImageComparator new];
+    
+    for (int i = 0; i < 50; i++) {
+        NSLog(@">>>>> drawing begin");
+        CFTimeInterval startTime = CFAbsoluteTimeGetCurrent();
+        
+        [comparator compareImage:originalImage withImage:anotherImage];
+        
+        CFTimeInterval costTime = CFAbsoluteTimeGetCurrent() - startTime;
+        NSLog(@">>>>> drawing done with timecost: %lf", costTime);
+    }
     
     // We assume both images are the same size, but it's just a matter of finding the biggest
     // CGRect that contains both image sizes and create the CGContext with that size
@@ -144,7 +157,6 @@
     CGImageRelease(diffed);
     
     self.diffImageView.image = diffedImage;
-    NSLog(@">>>>> drawing done");
 }
 
 @end
