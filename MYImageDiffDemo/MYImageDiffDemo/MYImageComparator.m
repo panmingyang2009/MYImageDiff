@@ -23,8 +23,12 @@
 }
 
 - (void)dealloc {
+    
 }
 
+/// 对比两张图像是否相似。定性分析
+/// @param imageA 待对比图片
+/// @param imageB 待对比图片
 - (BOOL)compareImage:(UIImage *)imageA withImage:(UIImage *)imageB {
     
     CIImage *ciImageA = [[CIImage alloc] initWithImage:imageA];
@@ -70,7 +74,9 @@
     NSInteger maximumBack = MAX(pixelData[2], pixelData[3]);
     NSInteger maximum = MAX(maximumFore, maximumBack);
     
-    return maximum == 0;
+    BOOL isSameImage = (maximum == 0);
+    
+    return isSameImage;
 }
 
 @end
