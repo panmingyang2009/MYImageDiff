@@ -19,10 +19,28 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MYImageQuantitativeComparator : NSObject
+
+/// 色值容差
+/// @discussion 表示单像素点的色值允许偏差的比例，
+/// 范围 0.0~1.0，默认值 0
+@property (nonatomic, assign) CGFloat perPixelTolerance;
+/// 总体像素点容差
+/// @discussion 表示允许多少比例的像素点有差异，
+/// 范围 0.0~1.0，默认值 0
+@property (nonatomic, assign) CGFloat overallTolerance;
+
++ (BOOL)compareImage:(UIImage *)imageA
+           withImage:(UIImage *)imageB
+   perPixelTolerance:(CGFloat)perPixelTolerance
+    overallTolerance:(CGFloat)overallTolerance;
+
+- (BOOL)compareImage:(UIImage *)imageA
+           withImage:(UIImage *)imageB;
 
 @end
 
