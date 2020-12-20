@@ -1,15 +1,15 @@
 //
-//  PixelBinarizationFilter.m
+//  MYPixelBinarizationFilter.m
 //  MYImageDiff
 //
 //  Created by 潘名扬 on 2020/2/28.
 //  Copyright © 2020 Punmy. All rights reserved.
 //
 
-#import "PixelBinarizationFilter.h"
+#import "MYPixelBinarizationFilter.h"
 #import <CoreImage/CoreImage.h>
 
-@implementation PixelBinarizationFilter
+@implementation MYPixelBinarizationFilter
 
 static CIKernel *customKernel = nil;
 
@@ -19,7 +19,7 @@ static CIKernel *customKernel = nil;
         customKernel == nil) {
         
         NSBundle *bundle = [NSBundle bundleForClass: [self class]];
-        NSURL *kernelURL = [bundle URLForResource:@"PixelBinarization"
+        NSURL *kernelURL = [bundle URLForResource:@"MYPixelBinarization"
                                     withExtension:@"cikernel"];
         
         NSError *error;
@@ -53,7 +53,11 @@ static CIKernel *customKernel = nil;
 
 - (CIImage *)outputImage {
     CGRect dod = self.imageA.extent;
-    NSArray *arguments = @[self.imageA, self.imageB, @(self.tolerance / 255.0)];
+    NSUInteger tolerance = self.tolerance + 1;  // 将 < 转为 <=
+    NSArray *arguments = @[self.imageA,
+                           self.imageB,
+                           @(tolerance / 255.0),
+                           @(self.ignoreAlpha ? 1.0 : 0.0)];
     CIKernelROICallback roiCallback = ^CGRect(int index, CGRect destRect) {
         return destRect;
     };
