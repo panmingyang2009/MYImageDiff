@@ -18,6 +18,9 @@
 		EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995ED2504EA040047CC16 /* github-octocat.png */; };
 		EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995EE2504EA040047CC16 /* github-octocat-edit.png */; };
 		EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995F72504F5150047CC16 /* MYImageComparator.m */; };
+		EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */; };
+		EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */; };
+		EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B2258F2E930031B78A /* MYImageTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,12 @@
 		EE5995EE2504EA040047CC16 /* github-octocat-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit.png"; sourceTree = "<group>"; };
 		EE5995F62504F5150047CC16 /* MYImageComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageComparator.h; sourceTree = "<group>"; };
 		EE5995F72504F5150047CC16 /* MYImageComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageComparator.m; sourceTree = "<group>"; };
+		EEBC23A825862D740031B78A /* MYImageQuantitativeComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageQuantitativeComparator.h; sourceTree = "<group>"; };
+		EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageQuantitativeComparator.m; sourceTree = "<group>"; };
+		EEBC23AB258630730031B78A /* MYImageBitmapComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageBitmapComparator.h; sourceTree = "<group>"; };
+		EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageBitmapComparator.m; sourceTree = "<group>"; };
+		EEBC23B1258F2E930031B78A /* MYImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageTool.h; sourceTree = "<group>"; };
+		EEBC23B2258F2E930031B78A /* MYImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +106,12 @@
 				EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */,
 				EE5995DF2504D47B0047CC16 /* Info.plist */,
 				EE5995E02504D47B0047CC16 /* main.m */,
+				EEBC23A825862D740031B78A /* MYImageQuantitativeComparator.h */,
+				EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */,
+				EEBC23AB258630730031B78A /* MYImageBitmapComparator.h */,
+				EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */,
+				EEBC23B1258F2E930031B78A /* MYImageTool.h */,
+				EEBC23B2258F2E930031B78A /* MYImageTool.m */,
 			);
 			path = MYImageDiffDemo;
 			sourceTree = "<group>";
@@ -238,9 +253,12 @@
 			files = (
 				EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */,
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
+				EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */,
 				EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */,
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
+				EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */,
+				EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
