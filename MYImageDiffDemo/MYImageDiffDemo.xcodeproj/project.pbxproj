@@ -21,6 +21,9 @@
 		EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */; };
 		EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */; };
 		EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B2258F2E930031B78A /* MYImageTool.m */; };
+		EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */; };
+		EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */; };
+		EEBC23BA258F51980031B78A /* github-octocat-edit-half.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +52,10 @@
 		EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageBitmapComparator.m; sourceTree = "<group>"; };
 		EEBC23B1258F2E930031B78A /* MYImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageTool.h; sourceTree = "<group>"; };
 		EEBC23B2258F2E930031B78A /* MYImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageTool.m; sourceTree = "<group>"; };
+		EEBC23B4258F38750031B78A /* MYPixelBinarizationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPixelBinarizationFilter.h; sourceTree = "<group>"; };
+		EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPixelBinarizationFilter.m; sourceTree = "<group>"; };
+		EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MYPixelBinarization.cikernel; sourceTree = "<group>"; };
+		EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit-half.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +103,9 @@
 				EE5995CF2504D4790047CC16 /* AppDelegate.m */,
 				EE5995D42504D4790047CC16 /* ViewController.h */,
 				EE5995D52504D4790047CC16 /* ViewController.m */,
+				EEBC23B4258F38750031B78A /* MYPixelBinarizationFilter.h */,
+				EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */,
+				EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */,
 				EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */,
 				EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */,
 				EE5995F62504F5150047CC16 /* MYImageComparator.h */,
@@ -119,6 +129,7 @@
 		EE5995EC2504E9D80047CC16 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */,
 				EE5995EE2504EA040047CC16 /* github-octocat-edit.png */,
 				EE5995ED2504EA040047CC16 /* github-octocat.png */,
 			);
@@ -195,10 +206,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */,
+				EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */,
 				EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */,
 				EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */,
 				EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */,
 				EE5995D92504D4790047CC16 /* Main.storyboard in Resources */,
+				EEBC23BA258F51980031B78A /* github-octocat-edit-half.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +271,7 @@
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
 				EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */,
+				EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */,
 				EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
