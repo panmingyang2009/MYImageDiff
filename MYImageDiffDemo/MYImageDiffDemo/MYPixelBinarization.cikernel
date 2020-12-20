@@ -1,15 +1,18 @@
-kernel vec4 PixelBinarization(sampler imageA, sampler image, float tolerance) {
+kernel vec4 PixelBinarization(sampler imageA, sampler imageB, float tolerance) {
 
     // 获取当前点坐标
-    dest = destCoord();
+    vec2 dest = destCoord();
 
     vec4 colorA = sample(imageA, samplerTransform(imageA, dest));
     vec4 colorB = sample(imageB, samplerTransform(imageB, dest));
     
     // 计算色差
-    diffColor = abs(colorA - colorB);
+    vec4 diffColor = abs(colorA - colorB);
     // 二值化
-    binarizationColor = step(tolerance, diffColor);
+    vec4 binarizationColor = step(tolerance, diffColor);
+    float sumRGBA = (binarizationColor.r + binarizationColor.g + binarizationColor.b + binarizationColor.a);
+    float maxRGBA = step(1.0, sumRGBA);
+    binarizationColor = vec4(maxRGBA, maxRGBA, maxRGBA, maxRGBA);
     
     return binarizationColor;
 }
