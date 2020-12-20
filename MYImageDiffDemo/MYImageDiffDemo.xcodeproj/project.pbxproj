@@ -24,6 +24,7 @@
 		EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */; };
 		EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */; };
 		EEBC23BA258F51980031B78A /* github-octocat-edit-half.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */; };
+		EEBC23C0258F62CE0031B78A /* UIImage+MYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPixelBinarizationFilter.m; sourceTree = "<group>"; };
 		EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MYPixelBinarization.cikernel; sourceTree = "<group>"; };
 		EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit-half.png"; sourceTree = "<group>"; };
+		EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYImage.h"; sourceTree = "<group>"; };
+		EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */,
 				EEBC23B1258F2E930031B78A /* MYImageTool.h */,
 				EEBC23B2258F2E930031B78A /* MYImageTool.m */,
+				EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */,
+				EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */,
 			);
 			path = MYImageDiffDemo;
 			sourceTree = "<group>";
@@ -271,6 +276,7 @@
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
 				EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */,
+				EEBC23C0258F62CE0031B78A /* UIImage+MYImage.m in Sources */,
 				EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */,
 				EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */,
 			);
