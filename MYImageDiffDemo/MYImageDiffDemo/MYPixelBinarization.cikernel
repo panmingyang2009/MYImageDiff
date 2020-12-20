@@ -1,0 +1,16 @@
+kernel vec4 PixelBinarization(sampler imageA, sampler image, float tolerance) {
+
+    // 获取当前点坐标
+    dest = destCoord();
+
+    vec4 colorA = sample(imageA, samplerTransform(imageA, dest));
+    vec4 colorB = sample(imageB, samplerTransform(imageB, dest));
+    
+    // 计算色差
+    diffColor = abs(colorA - colorB);
+    // 二值化
+    binarizationColor = step(tolerance, diffColor);
+    
+    return binarizationColor;
+}
+
