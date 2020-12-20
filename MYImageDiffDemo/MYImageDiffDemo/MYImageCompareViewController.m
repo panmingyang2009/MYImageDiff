@@ -119,6 +119,7 @@
 - (void)compareImages {
     UIImage *originalImage = [UIImage imageNamed:@"github-octocat"];
     UIImage *anotherImage = [UIImage imageNamed:@"github-octocat-edit"];
+    UIImage *editedHalfImage = [UIImage imageNamed:@"github-octocat-edit-half"];
     self.originalImageView.image = originalImage;
     self.anotherImageView.image = anotherImage;
     
