@@ -84,8 +84,7 @@
     CGColorSpaceRelease(colorSpace);
     
     NSInteger maximumFore = MAX(pixelData[0], pixelData[1]);
-    NSInteger maximumBack = MAX(pixelData[2], pixelData[3]);
-    NSInteger maximum = MAX(maximumFore, maximumBack);
+    NSInteger maximum = MAX(maximumFore, pixelData[2]);
     
     BOOL isSameImage = (maximum == 0);
     
