@@ -34,8 +34,10 @@
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    MYImageCompareViewController *imageCompareVC = [[MYImageCompareViewController alloc] initWithNibName:nil bundle:nil];
-    [self.navigationController pushViewController:imageCompareVC animated:YES];
+    MYImageCompareViewController *imageCompareVC = [[MYImageCompareViewController alloc] initWithNibName:nil
+                                                                                                  bundle:nil];
+    [self.navigationController pushViewController:imageCompareVC
+                                         animated:YES];
 }
 
 
