@@ -31,6 +31,8 @@
 @implementation MYImageQuantitativeComparator
 
 
+#pragma mark - Class Methods
+
 + (BOOL)compareImage:(UIImage *)imageA
            withImage:(UIImage *)imageB
    perPixelTolerance:(CGFloat)perPixelTolerance
@@ -43,6 +45,9 @@
     return [comparator compareImage:imageA
                           withImage:imageB];
 }
+
+
+#pragma mark - Instance Methods
 
 - (instancetype)init {
     self = [super init];
@@ -57,7 +62,7 @@
     
 }
 
-/// 对比两张图像是否相似。定性分析
+/// 对比两张图像是否相似。定量分析
 /// @param imageA 待对比图片
 /// @param imageB 待对比图片
 - (BOOL)compareImage:(UIImage *)imageA withImage:(UIImage *)imageB {

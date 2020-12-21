@@ -10,7 +10,7 @@
 @implementation UIColor (MYImage)
 
 
-#prama mark - Class Methods
+#pragma mark - Class Methods
 
 + (CGFloat)colorComponentFrom:(NSString *)string
                         start:(NSUInteger)start
@@ -110,7 +110,7 @@
 }
 
 
-#prama mark - Instance Methods
+#pragma mark - Instance Methods
 
 - (BOOL)compareWithColor:(UIColor *)otherColor {
     if (!otherColor) {

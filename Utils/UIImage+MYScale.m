@@ -12,7 +12,7 @@
 @implementation UIImage (MYScale)
 
 
-#prama mark - Class Methods
+#pragma mark - Class Methods
 
 + (UIImage *)rotate:(UIImage *)image {
     CGImageRef imgRef = image.CGImage;
@@ -188,7 +188,7 @@
 }
 
 
-#prama mark - Instance Methods
+#pragma mark - Instance Methods
 
 - (UIImage *)scaleBySize:(CGSize)size {
 	if (![self respondsToSelector:@selector(scale)]) {
