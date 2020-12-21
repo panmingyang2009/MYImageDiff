@@ -13,3 +13,4 @@
 #import "MYImageComparator.h"
 #import "MYImageBitmapComparator.h"
 #import "MYImageQuantitativeComparator.h"
+#import "MYImageUniversalComparator.h"

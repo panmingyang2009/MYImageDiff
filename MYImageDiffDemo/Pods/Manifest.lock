@@ -7,7 +7,7 @@ DEPENDENCIES:
   - MYImageDiff (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Masonry
 
 EXTERNAL SOURCES:
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MYImageDiff: be7348121346a20856dcb905b51d49c2eff95ee5
+  MYImageDiff: 4135154099d846b43db35804860f69f791cfca5a
 
 PODFILE CHECKSUM: 4d279fd3034397befa092a367a16d1b0131a23b1
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.1

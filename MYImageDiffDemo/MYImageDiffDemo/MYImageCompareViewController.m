@@ -130,7 +130,8 @@
         NSLog(@">>>>> drawing begin");
         CFTimeInterval startTime = CFAbsoluteTimeGetCurrent();
         
-        [comparator compareImage:originalImage withImage:anotherImage];
+//        [comparator compareImage:originalImage withImage:anotherImage];
+        [MYImageUniversalComparator compareImage:originalImage withImage:anotherImage psnrTolerance:40];
         
         CFTimeInterval costTime = CFAbsoluteTimeGetCurrent() - startTime;
         NSLog(@">>>>> drawing done with timecost: %lf", costTime);

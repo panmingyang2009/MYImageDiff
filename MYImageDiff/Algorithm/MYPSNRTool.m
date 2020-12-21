@@ -36,8 +36,6 @@
     NSUInteger heightA = CGImageGetHeight(imageRefA);
     NSUInteger pixelCount = heightA * widthA;
     
-    NSLog(@"A");
-    
     // Extract red channel to Vector
     float *redVectorA = (float *)calloc(pixelCount, sizeof(float));
     float *redVectorB = (float *)calloc(pixelCount, sizeof(float));
@@ -75,9 +73,7 @@
     
     // Calculate PSNR
     float psnr = 20 * log10f((255.0 / sqrtf(mse)));
-    
-    NSLog(@"B");
-    
+        
     free(redVectorSub);
     free(redVectorA);
     free(redVectorB);

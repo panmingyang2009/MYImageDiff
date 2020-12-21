@@ -101,7 +101,7 @@
     unsigned int value = *((unsigned int*)&intValue);
     return [UIColor colorWithRed:((0x00FF0000 & value) >> 16) / 255.0
                            green:((0x0000FF00 & value) >> 8) / 255.0
-                            blue:((0x000000FF & value) >> 0 / 255.0
+                            blue:((0x000000FF & value) >> 0) / 255.0
                            alpha:((0xFF000000 & value) >> 24) / 255.0];
 }
 

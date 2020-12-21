@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-MYImageDiffDemo/Pods-MYImageDiffDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MYImageDiff/MYImageDiff.framework
 ${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

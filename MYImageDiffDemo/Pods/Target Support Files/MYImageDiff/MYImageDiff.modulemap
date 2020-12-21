@@ -1,0 +1,6 @@
+framework module MYImageDiff {
+  umbrella header "MYImageDiff-umbrella.h"
+
+  export *
+  module * { export * }
+}
