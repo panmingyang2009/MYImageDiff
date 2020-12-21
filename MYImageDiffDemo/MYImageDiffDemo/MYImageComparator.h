@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MYImageComparator : NSObject
 
-/// 对比两张图像是否相似。定性分析
+/// 对比两张图像是否相同。定性分析
 /// @param imageA 待对比图片
 /// @param imageB 待对比图片
 - (BOOL)compareImage:(UIImage *)imageA withImage:(UIImage *)imageB;

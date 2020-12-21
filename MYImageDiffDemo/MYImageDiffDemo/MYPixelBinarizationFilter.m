@@ -56,8 +56,7 @@ static CIKernel *customKernel = nil;
     NSUInteger tolerance = self.tolerance + 1;  // 将 < 转为 <=
     NSArray *arguments = @[self.imageA,
                            self.imageB,
-                           @(tolerance / 255.0),
-                           @(self.ignoreAlpha ? 1.0 : 0.0)];
+                           @(tolerance / 255.0)];
     CIKernelROICallback roiCallback = ^CGRect(int index, CGRect destRect) {
         return destRect;
     };
