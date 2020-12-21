@@ -123,6 +123,8 @@
 		EEBC23B0258634B70031B78A /* UIColor+MYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MYImage.m"; sourceTree = "<group>"; };
 		EEBC23C1258F66680031B78A /* UIImage+MYScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYScale.h"; sourceTree = "<group>"; };
 		EEBC23C2258F66680031B78A /* UIImage+MYScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYScale.m"; sourceTree = "<group>"; };
+		EEE73815259091DB00E0B991 /* MYPSNRTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPSNRTool.m; sourceTree = "<group>"; };
+		EEE73816259091DB00E0B991 /* MYPSNRTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPSNRTool.h; sourceTree = "<group>"; };
 		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 		3DF489BF08133EC319C66E804BCDC81B /* MYImageDiff */ = {
 			isa = PBXGroup;
 			children = (
+				EEE73814259091B000E0B991 /* Algorithm */,
 				EEBC23AE258633960031B78A /* Utils */,
 				3D848B17033C894C1E61EAC6BD160735 /* MYImageDiff.h */,
 				E5F897F94636783207093A940B7661D4 /* Pod */,
@@ -306,6 +309,15 @@
 				EEBC23B0258634B70031B78A /* UIColor+MYImage.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		EEE73814259091B000E0B991 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				EEE73816259091DB00E0B991 /* MYPSNRTool.h */,
+				EEE73815259091DB00E0B991 /* MYPSNRTool.m */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 		F69A0FAAA7AD9A3CA0A098D47983E21C /* Support Files */ = {
