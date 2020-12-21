@@ -25,6 +25,7 @@
 		EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */; };
 		EEBC23BA258F51980031B78A /* github-octocat-edit-half.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */; };
 		EEBC23C0258F62CE0031B78A /* UIImage+MYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */; };
+		EEF3241C258F868D00052454 /* MYPSNRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF3241B258F868D00052454 /* MYPSNRTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,8 @@
 		EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit-half.png"; sourceTree = "<group>"; };
 		EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYImage.h"; sourceTree = "<group>"; };
 		EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYImage.m"; sourceTree = "<group>"; };
+		EEF3241A258F868D00052454 /* MYPSNRTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYPSNRTool.h; sourceTree = "<group>"; };
+		EEF3241B258F868D00052454 /* MYPSNRTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYPSNRTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				EEBC23B2258F2E930031B78A /* MYImageTool.m */,
 				EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */,
 				EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */,
+				EEF3241A258F868D00052454 /* MYPSNRTool.h */,
+				EEF3241B258F868D00052454 /* MYPSNRTool.m */,
 			);
 			path = MYImageDiffDemo;
 			sourceTree = "<group>";
@@ -269,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF3241C258F868D00052454 /* MYPSNRTool.m in Sources */,
 				EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */,
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
 				EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */,
