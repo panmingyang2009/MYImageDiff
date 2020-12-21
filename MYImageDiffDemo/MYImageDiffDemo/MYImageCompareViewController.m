@@ -20,10 +20,7 @@
 
 #import "MYImageCompareViewController.h"
 #import <Masonry/Masonry.h>
-
-#import "MYImageComparator.h"
-#import "MYImageBitmapComparator.h"
-#import "MYImageQuantitativeComparator.h"
+#import <MYImageDiff/MYImageDiff.h>
 
 
 @interface MYImageCompareViewController ()

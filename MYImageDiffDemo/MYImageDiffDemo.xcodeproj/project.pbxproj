@@ -17,14 +17,7 @@
 		EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */; };
 		EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995ED2504EA040047CC16 /* github-octocat.png */; };
 		EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */ = {isa = PBXBuildFile; fileRef = EE5995EE2504EA040047CC16 /* github-octocat-edit.png */; };
-		EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5995F72504F5150047CC16 /* MYImageComparator.m */; };
-		EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */; };
-		EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */; };
-		EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B2258F2E930031B78A /* MYImageTool.m */; };
-		EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */; };
-		EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */; };
 		EEBC23BA258F51980031B78A /* github-octocat-edit-half.png in Resources */ = {isa = PBXBuildFile; fileRef = EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */; };
-		EEBC23C0258F62CE0031B78A /* UIImage+MYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,20 +38,7 @@
 		EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageCompareViewController.m; sourceTree = "<group>"; };
 		EE5995ED2504EA040047CC16 /* github-octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat.png"; sourceTree = "<group>"; };
 		EE5995EE2504EA040047CC16 /* github-octocat-edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit.png"; sourceTree = "<group>"; };
-		EE5995F62504F5150047CC16 /* MYImageComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageComparator.h; sourceTree = "<group>"; };
-		EE5995F72504F5150047CC16 /* MYImageComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageComparator.m; sourceTree = "<group>"; };
-		EEBC23A825862D740031B78A /* MYImageQuantitativeComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageQuantitativeComparator.h; sourceTree = "<group>"; };
-		EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageQuantitativeComparator.m; sourceTree = "<group>"; };
-		EEBC23AB258630730031B78A /* MYImageBitmapComparator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageBitmapComparator.h; sourceTree = "<group>"; };
-		EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageBitmapComparator.m; sourceTree = "<group>"; };
-		EEBC23B1258F2E930031B78A /* MYImageTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYImageTool.h; sourceTree = "<group>"; };
-		EEBC23B2258F2E930031B78A /* MYImageTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYImageTool.m; sourceTree = "<group>"; };
-		EEBC23B4258F38750031B78A /* MYPixelBinarizationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPixelBinarizationFilter.h; sourceTree = "<group>"; };
-		EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPixelBinarizationFilter.m; sourceTree = "<group>"; };
-		EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MYPixelBinarization.cikernel; sourceTree = "<group>"; };
 		EEBC23B9258F51980031B78A /* github-octocat-edit-half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "github-octocat-edit-half.png"; sourceTree = "<group>"; };
-		EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+MYImage.h"; sourceTree = "<group>"; };
-		EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MYImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,27 +86,14 @@
 				EE5995CF2504D4790047CC16 /* AppDelegate.m */,
 				EE5995D42504D4790047CC16 /* ViewController.h */,
 				EE5995D52504D4790047CC16 /* ViewController.m */,
-				EEBC23B4258F38750031B78A /* MYPixelBinarizationFilter.h */,
-				EEBC23B5258F38750031B78A /* MYPixelBinarizationFilter.m */,
-				EEBC23B7258F38890031B78A /* MYPixelBinarization.cikernel */,
 				EE5995E92504DCDD0047CC16 /* MYImageCompareViewController.h */,
 				EE5995EA2504DCDD0047CC16 /* MYImageCompareViewController.m */,
-				EE5995F62504F5150047CC16 /* MYImageComparator.h */,
-				EE5995F72504F5150047CC16 /* MYImageComparator.m */,
 				EE5995D72504D4790047CC16 /* Main.storyboard */,
 				EE5995DA2504D47B0047CC16 /* Assets.xcassets */,
 				EE5995EC2504E9D80047CC16 /* Resources */,
 				EE5995DC2504D47B0047CC16 /* LaunchScreen.storyboard */,
 				EE5995DF2504D47B0047CC16 /* Info.plist */,
 				EE5995E02504D47B0047CC16 /* main.m */,
-				EEBC23A825862D740031B78A /* MYImageQuantitativeComparator.h */,
-				EEBC23A925862D740031B78A /* MYImageQuantitativeComparator.m */,
-				EEBC23AB258630730031B78A /* MYImageBitmapComparator.h */,
-				EEBC23AC258630730031B78A /* MYImageBitmapComparator.m */,
-				EEBC23B1258F2E930031B78A /* MYImageTool.h */,
-				EEBC23B2258F2E930031B78A /* MYImageTool.m */,
-				EEBC23BE258F62CE0031B78A /* UIImage+MYImage.h */,
-				EEBC23BF258F62CE0031B78A /* UIImage+MYImage.m */,
 			);
 			path = MYImageDiffDemo;
 			sourceTree = "<group>";
@@ -211,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5995F02504EA040047CC16 /* github-octocat-edit.png in Resources */,
-				EEBC23B8258F38890031B78A /* MYPixelBinarization.cikernel in Resources */,
 				EE5995DE2504D47B0047CC16 /* LaunchScreen.storyboard in Resources */,
 				EE5995DB2504D47B0047CC16 /* Assets.xcassets in Resources */,
 				EE5995EF2504EA040047CC16 /* github-octocat.png in Resources */,
@@ -271,14 +237,8 @@
 			files = (
 				EE5995EB2504DCDD0047CC16 /* MYImageCompareViewController.m in Sources */,
 				EE5995D62504D4790047CC16 /* ViewController.m in Sources */,
-				EEBC23AA25862D740031B78A /* MYImageQuantitativeComparator.m in Sources */,
-				EE5995F82504F5150047CC16 /* MYImageComparator.m in Sources */,
 				EE5995D02504D4790047CC16 /* AppDelegate.m in Sources */,
 				EE5995E12504D47B0047CC16 /* main.m in Sources */,
-				EEBC23AD258630730031B78A /* MYImageBitmapComparator.m in Sources */,
-				EEBC23C0258F62CE0031B78A /* UIImage+MYImage.m in Sources */,
-				EEBC23B6258F38750031B78A /* MYPixelBinarizationFilter.m in Sources */,
-				EEBC23B3258F2E930031B78A /* MYImageTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

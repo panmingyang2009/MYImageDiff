@@ -1,6 +1,6 @@
 //
 //  MYImageBitmapComparator.h
-//  MYImageDiffDemo
+//  MYImageDiff
 //
 //  Created by 潘名扬 on 2020/12/13.
 //  Copyright © 2020 MINGYANG PAN. All rights reserved.
