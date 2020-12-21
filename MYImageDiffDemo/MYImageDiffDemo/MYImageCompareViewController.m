@@ -22,6 +22,8 @@
 #import <Masonry/Masonry.h>
 
 #import "MYImageComparator.h"
+#import "MYImageBitmapComparator.h"
+#import "MYImageQuantitativeComparator.h"
 
 
 @interface MYImageCompareViewController ()
@@ -123,7 +125,9 @@
     self.originalImageView.image = originalImage;
     self.anotherImageView.image = anotherImage;
     
-    MYImageComparator *comparator = [MYImageComparator new];
+//    MYImageComparator *comparator = [MYImageComparator new];
+    MYImageBitmapComparator *comparator = [MYImageBitmapComparator new];
+//    MYImageQuantitativeComparator *comparator = [MYImageQuantitativeComparator new];
     
     for (int i = 0; i < 50; i++) {
         NSLog(@">>>>> drawing begin");
